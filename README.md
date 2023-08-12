@@ -1,120 +1,34 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
-
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
-
-<p align="center">
-  <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
-  </kbd>
-</p>
-
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
-
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-## Sections
-
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Feedbacks\
-✔️ Projects\
-✔️ Github Profile
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
-<br>
-**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
-
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
-
-## How To Use
-
-1. Fork this repoistory and clone it to your local machine.
+First, run the development server:
 
 ```bash
-$ git clone https://github.com/<your-username>/developer-portfolio.git
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-2. Go into the repository
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-$ cd developer-portfolio
-```
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-3. Install dependencies
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```bash
-$ yarn
-```
+## Learn More
 
-4. Edit `portfolio.js`
+To learn more about Next.js, take a look at the following resources:
 
-5. Start's development server
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```bash
-$ yarn dev
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Linking Portfolio to Github
+## Deploy on Vercel
 
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-#### Using Emojis
-
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
-
-## Technologies Used
-
-- [Next.js](https://nextjs.org/)
-- [axios](https://www.npmjs.com/package/axios)
-- [reactstrap](https://reactstrap.github.io/)
-- [react-reveal](https://www.react-reveal.com/)
-- [react-lottie](https://www.npmjs.com/package/react-lottie)
-- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
-- [react-headroom](https://github.com/KyleAMathews/react-headroom)
-- [color-thief](https://github.com/lokesh/color-thief)
-
-## Illustrations
-
-- [Lottie File Source](https://lottiefiles.com)
-
-## Icons
-
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-## For the Future
-
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-- Enable Dark Mode
-
-- Add More Sections
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

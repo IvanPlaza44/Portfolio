@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.project {
+    display: flex; /* Agrega esta línea para aplicar flexbox */
+    flex-direction: column; /* Cambia la dirección de flexión a columna */
+    border: 2px solid green;
+    width: 400px; /* Quita las comillas y agrega "px" */
+    height: 250px; /* Quita las comillas y agrega "px" */
+    margin: 10px; /* Agrega un margen para separar los proyectos */
+  }

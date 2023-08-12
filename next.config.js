@@ -1,6 +1,4 @@
-module.exports = {
-  reactStrictMode: false,
-  images: {
-    domains: ['avatars.githubusercontent.com'],
-  },
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
+
+module.exports = nextConfig
