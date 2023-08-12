@@ -13,7 +13,7 @@ export default function Projects () {
             <img className={styles.img} align="center" src="https://www.svgrepo.com/show/325236/github.svg" alt="https://github.com/IvanPlaza44/PI-FOOD"/>
           </a>
         </div>
-        <iframe src="https://www.youtube.com/watch?v=ZgsCnI4u8uI" title="Pi Foods Video" frameborder="0" allowfullscreen/>
+        <iframe src="https://www.youtube.com/embed/ZgsCnI4u8uI&t=1s" title="Pi Foods Video" frameborder="0" allowfullscreen/>
       </div>
       {/* <div className={styles.project}>
         <a  href="https://pi-foods-ivan-plaza.vercel.app/" target="blank">
