@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px 0px 0px 120px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: transform 0.4s ease;
+}
+
+
+.img:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.text{
+    text-align: center;
+    font-size: 50px;
+}

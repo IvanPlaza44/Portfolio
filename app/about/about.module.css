@@ -1,17 +1,23 @@
 .container{
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0px 100px 0px 120px;
 }
 .image{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 200px;
-    margin: 20px;
+    margin: 19px;
+}
+.image:hover{
+    scale: calc(1.1);
+    transition: 0.7s;
 }
 
 .parrafo{
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px 5px white;
     text-align: justify;
-    font-size: 25px;
+    font-size: 30px;
 }
