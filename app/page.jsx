@@ -13,7 +13,7 @@ export default function Home() {
       <h1> Bienvenios!!!! Mi nombre es Ivan Plaza 😁</h1>
       
 
-      <img width="500" height="500" src="https://media.giphy.com/media/QvpqTCiEcwtvx6wwJK/giphy.gif"  frameBorder="0" class="giphy-embed" allowFullScreen></img>
+      <img className={styles.img} src="https://media.giphy.com/media/QvpqTCiEcwtvx6wwJK/giphy.gif"  frameBorder="0" class="giphy-embed" allowFullScreen></img>
 
 
     </div>
