@@ -31,6 +31,7 @@
     flex-direction: column;
     width: 550px;
     height: 400px;
+    margin-left: 20px;
   }
 
   @media (max-width: 768px) {
